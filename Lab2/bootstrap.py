@@ -7,6 +7,12 @@ import numpy as np
 
 def boostrap(sample, sample_size, iterations):
 	# <---INSERT YOUR CODE HERE--->
+	sample = np.array(100000)
+    sample.shape(iterations,sample_size)
+
+
+	data_mean=np.mean(sample)
+	print("Mean of data is:",data_mean)
 	return data_mean, lower, upper
 
 
